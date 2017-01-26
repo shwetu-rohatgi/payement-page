@@ -14,6 +14,9 @@ html,body{
 .mt20{
 	margin-top: 20px;
 }
+.pb20{
+	padding-bottom: 20px;
+}
 .pt20{
 	padding-top: 20px;
 }
@@ -72,7 +75,7 @@ h1,h2,h3{
     margin-right: auto;
     display: block;
     position: absolute;
-    top: 278px;
+    top: 272px;
     left: 230px;
     cursor: pointer;
 }
@@ -90,7 +93,7 @@ h1,h2,h3{
     margin-right: auto;
     display: block;
     position: absolute;
-    top: 400px;
+    top: 420px;
     left: 230px;
     cursor: pointer;
 }
@@ -244,6 +247,13 @@ li {
 	margin-right: auto;
 
 }
-.hello{
-	margin-top: 20px; 
+body.modal-open {
+    overflow: visible;
+    padding-right: 0 !important;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
